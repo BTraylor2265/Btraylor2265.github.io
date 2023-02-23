@@ -7,11 +7,18 @@ body {
     font-size: 100%;
     width: 1000px;
     background-color: white;
-    margin: 15px auto;
-    padding: 15px 1.5em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
+
 }
 
 a:focus, a:hover{
@@ -23,6 +30,7 @@ header h1 {
     font-size: 175%;
     color: maroon;
     text-indent: 30px;
+
 }
 
 header h2 {
@@ -32,7 +40,8 @@ header h2 {
 }
 
 header img {
-    margin-left: 1.5em 2em 1.5em;
+    float: left;
+    margin-left: 2em;
 }
 
 .shadow {
@@ -43,7 +52,10 @@ main {
 }
 
 main h3 {
-    margin-top: 3em 2em 1.5em;
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1.5em;
     font-size: 105%;
     border: 5px double blue;
     border-radius: 20px;
@@ -52,24 +64,12 @@ main h3 {
 }
 
 main nav {
-    margin: 1.5em 2em 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
     border: 5px dashed blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
-}
-div.contact {
-    margin:1.5em 2em 0 2em;
-    border: 5px dotted blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
-}
-
-#list {
-    line-height: 1.5em;
-}
-
-footer p.copyright {
-    text-align: center;
-    font-size: 80%;
+    padding: 0.5em;
 }
