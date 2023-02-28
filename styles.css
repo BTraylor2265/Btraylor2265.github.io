@@ -40,8 +40,8 @@ header h2 {
 }
 
 header img {
-    float: left;
-    margin-left: 1em;
+    
+    margin-left: auto;
 }
 
 .shadow {
