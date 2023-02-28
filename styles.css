@@ -40,7 +40,7 @@ header h2 {
 }
 
 header img {
-    
+    float: left;
     margin-left: 2em;
 }
 
