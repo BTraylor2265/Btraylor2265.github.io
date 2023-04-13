@@ -111,6 +111,7 @@ html,body{
             text-align: center;
             font-size: .6em;
         }
+        @media only screen and (max-width: 700px){
         .menu-button-container {
             display: flex;
         }
@@ -149,4 +150,4 @@ html,body{
         .menu > li:not(:last-child) {
             border-bottom: 1px solid #444;
         }
-        
+    }
